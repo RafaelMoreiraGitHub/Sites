@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family= Righteous & display=swap');
+
+	body{
+		background-color:black;
+		color: white;
+		font-family: 'Righteous', cursive;
+		max-width: 1200px;
+		margin:0 auto;
+		padding:25px;
+		}
+	
+	header{
+		display:flex;
+		flex-direction:row;
+		justify-content:space-between;
+		align-items:center;
+		}
+	
+	#title{
+		flex-direction:colun;
+		line-height:10px;
+		}
+		
+	h1{
+		font-weight:200px;
+		font-size:60;
+		}
+	
+	a{
+		color:white;
+		}
+	
+	a:hover{
+		color:rgb(132,34,201);
+		transition:0.3s all	;
+		}		
+		
+	#inscreva-se-btn{
+		border: 2px solid rgb(132,14,201);
+		padding:10px;
+		border-radius:15px;
+		}
+	
+	#inscreva-se-btn:hover{
+		background-color:rgb(132,14,201);
+		color:white;
+	}
+	li{
+		display:inline-block;
+		margin:20px;
+	    }
+		
+	main{
+		display:flex;
+		flex-direction:row;
+		margin-top:50px;
+		}
+	
+	h2{
+		font-size:50px;
+		line-height:40px;
+		}
+		
+	
+	span{
+		color:rgb(132,14,201);
+		}
+	
+	p{
+		line-height: 20px;
+		text-align:justify;
+		width:65%;
+		
+		}
+	
+	form{
+		display:flex;
+		flex-direction: column;
+		width:70%;
+		}
+		
+		
+	form [ type="submit"]{
+		padding:20px;
+		height:50%;
+		width:50%;
+		background-color:rgb(132,14,201);
+		color: white;
+		font-weight:bold;
+		}
+		
+	form [type="submit"]:hover{
+		cursor:pointer;
+		}
+	
+	input{
+		margin-top:20px;
+		height:20px;
+		padding:25px;
+		border-radius:25px;
+		border:none;
+		font-size:15px;
+		width: 90%;
+	}
+	
+	img{
+		margin-top:39px;
+		width:600px;
+		height:400px;
+	}
+	
