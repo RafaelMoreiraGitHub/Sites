@@ -1,0 +1,46 @@
+@media screen and (max-width:580px){
+	
+	#header{
+		flex-direction:column;
+	}
+	
+	ul{
+		flex-direction:column;
+	}
+	
+	main{
+		flex-direction:column;
+	}
+	
+	#h2{
+		font-size:40px;
+		width:100%;
+		line-height: 40px;
+	}
+	
+	form{
+		margin:0 auto;
+	}
+	
+	#p{
+	
+	text-align: justify;
+	width:100%;
+	}
+		
+	input{
+	
+		margin-top:20px;
+		height:20px;
+		padding:25px;
+		border-radius:25px;
+		border:none;
+		font-size:15px;
+		width: 60%;
+	}
+	
+	#img{
+		display:none;
+	}
+		
+}
